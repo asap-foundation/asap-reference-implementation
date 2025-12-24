@@ -1,0 +1,9 @@
+{
+  "name": "asap-reference-examples",
+  "version": "1.0.0",
+  "description": "ASAP Reference Implementation - Usage examples and demonstrations",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}

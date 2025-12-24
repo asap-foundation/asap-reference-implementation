@@ -1,0 +1,29 @@
+{
+  "name": "asap",
+  "version": "1.0.0",
+  "description": "ASAP Reference Implementation - AI Site Agent Protocol",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "demo": "start /B npm run demo:registry && timeout /t 2 >nul && start /B npm run demo:agent && timeout /t 2 >nul && npm run demo:consumer",
+    "demo:registry": "cd registry && node server.js",
+    "demo:agent": "cd agent && node server.js",
+    "demo:consumer": "cd ai-consumer && node index.js",
+    "demo:windows": "start cmd /c \"cd registry && node server.js\" && timeout /t 2 >nul && start cmd /c \"cd agent && node server.js\" && timeout /t 3 >nul && cd ai-consumer && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asap-foundation/asap-reference-implementation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asap-foundation/asap-reference-implementation/issues"
+  },
+  "homepage": "https://github.com/asap-foundation/asap-reference-implementation#readme"
+}

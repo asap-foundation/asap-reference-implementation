@@ -1,0 +1,31 @@
+{
+  "protocol": "ASAP/1.0",
+  "site": "example.com",
+  "agent_url": "https://example.com/ai/agent",
+  "public_key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArT6f+examplePublicKey==",
+  "intents": [
+    {
+      "name": "pricing",
+      "description": "Provides official pricing and subscription plans",
+      "data_type": "text",
+      "policy": "public"
+    },
+    {
+      "name": "features",
+      "description": "Lists official product features",
+      "data_type": "text",
+      "policy": "public"
+    },
+    {
+      "name": "availability",
+      "description": "Shows product/service availability",
+      "data_type": "text",
+      "policy": "public"
+    }
+  ],
+  "contact": {
+    "email": "admin@example.com",
+    "website": "https://example.com/contact"
+  },
+  "last_updated": "2025-12-23T12:00:00Z"
+}
