@@ -9,8 +9,6 @@
 >  
 > Canonical reference: https://github.com/asap-foundation/asap-protocol
 
-Reference Implementation
-ASAP Protocol
 
 
 A decentralized protocol for AI-powered websites to provide cryptographically verified, official responses to user queries through dedicated AI agents.
